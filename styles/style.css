@@ -6,11 +6,11 @@
   --border-radius: 6px;
 }
 @font-face {
-  font-family: 'SourceCodePro-Regular';
-  src: url('/fonts/Source_Code_Pro/static/SourceCodePro-Regular.ttf');
+  font-family: 'myFont';
+  src: url('/fonts/SourceCodePro-Regular.ttf');
 }
 * {
-  font-family: 'SourceCodePro-Regular';
+  font-family: 'myFont';
 }
 body {
   box-sizing: border-box;
