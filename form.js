@@ -1,6 +1,6 @@
 const form = document.querySelector("form");
 // определяем origin и pathname у страницы-получателя
-const urlIndexPage = new URL('index.html', window.location.href);
+const urlIndexPage = new URL('result.html', window.location.href);
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
