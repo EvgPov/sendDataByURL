@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="./styles/normolize.css">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <div class="form__container">
+    <h2 class="popup__title">Отправка информации о пользователе</h2>
+    <form class="form" id="send-form" name="send-form">
+          <input
+          type="text"
+          class="form__item form__item-name"
+          name="name"
+          placeholder="Имя"
+          minlength="2"
+          maxlength="200"
+          required
+        />
+          <input
+          type="number"
+          class="form__item form__item-age"
+          name="age"
+          placeholder="Возраст"
+          minlength="2"
+          maxlength="200"
+          required
+        />
+         <input
+          type="text"
+          class="form__item form__item-city"
+          name="city"
+          placeholder="Город"
+          minlength="2"
+          maxlength="200"
+          required
+        />
+        <button type="submit" class="btn form__submit">Отправить</button>
+    </form>
+  </div>  
+  <script src = "form.js"></script>
+</body>
+</html>
