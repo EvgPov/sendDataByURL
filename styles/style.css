@@ -7,7 +7,7 @@
 }
 @font-face {
   font-family: 'myFont';
-  src: url('/fonts/SourceCodePro-Regular.ttf');
+  src: url('/fonts/SourceRegular.ttf');
 }
 * {
   font-family: 'myFont';
