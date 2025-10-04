@@ -7,7 +7,7 @@
 }
 @font-face {
   font-family: 'myFont';
-  src: url('../fonts/FeatureMono-Regular.woff') format(woff);
+  src: url('../fonts/SourceRegular.ttf') format(ttf);
 }
 * {
   font-family: 'myFont';
